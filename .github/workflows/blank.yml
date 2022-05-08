@@ -5,3 +5,19 @@ var customerUrl =
 dwolla
   .post(`${customerUrl}/card-funding-sources-token`)
   .then((res) => res.body.token); // => 'lr0Ax1zwIpeXXt8sJDiVXjPbwEeGO6QKFWBIaKvnFG0Sm2j7vL'
+<head>
+  <script src="https://cdn-b.dwolla.com/1/dwolla-cards.js"></script>
+</head>
+// Sandbox
+dwolla.configure("sandbox");
+
+// Production
+dwolla.configure("prod");
+
+// Sandbox
+dwolla.configure("sandbox");
+
+// Production
+dwolla.configure("prod");
+
+
